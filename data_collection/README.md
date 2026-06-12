@@ -13,7 +13,7 @@ graph TD
         D --> E[(CSV Files)]
         F[stations.json] --> G[[02_merge_stations_data.py]]
         E --> G
-        G --> H[(IGRA_DATASET.csv)]
+        G --> H[(Turkiye_IGRA_Dataset_2006-11-30_2021-05-18.csv)]
     end
     subgraph Analysis [Analysis]
         H --> I[[03_analyze_dataset.py]]
@@ -45,7 +45,7 @@ graph TD
 - Combines all stations into single dataset
 - Filters surface + standard pressure levels only
 - Date range: 2006-11-30 → 2021-05-18
-- Output: `IGRA_DATASET.csv`
+- Output: `Turkiye_IGRA_Dataset_2006-11-30_2021-05-18.csv`
 
 ### 4. Analyze Dataset (`03_analyze_dataset.py`)
 - Data quality statistics
@@ -138,7 +138,7 @@ metpy
 }
 ```
 
-### IGRA_DATASET.csv (first 5 rows)
+### Turkiye_IGRA_Dataset_2006-11-30_2021-05-18.csv (first 5 rows)
 ```csv
 datetime,hour,station_id,name,lat,lon,elevation,pressure,level_type,geopotential,temperature,relative_humidity,wind_speed,wind_direction
 2006-11-30 00:00,0,17030,Samsun,41.28,36.3,4,1030.0,surface,4.0,5.8,77.1,2.1,280.0

@@ -104,7 +104,7 @@ def convert_to_wyoming_format(sounding_df):
     # Calculate relative humidity and mixing ratio using MetPy
     output_rows = []
     
-    # Note: iterrows() is slow for large datasets but readable for row-wise calculations
+    # iterrows() is slow for large datasets but readable for row-wise calculations
     for idx, row in df.iterrows():
         out = {
             'pressure_hPa': round(row['pressure_hPa'], 1) if pd.notna(row['pressure_hPa']) else np.nan,

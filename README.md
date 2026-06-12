@@ -61,6 +61,16 @@ radiosonde_GNN/
 └── requirements.txt
 ```
 
+## Data
+
+The dataset is not bundled with this repository (IGRA observations are public and large). Generate it with the scripts in [`data_collection/`](data_collection/), then place the resulting CSV where the model expects it:
+
+```
+vht_stgnn/DATA/Turkiye_IGRA_Dataset_2006-11-30_2021-05-18.csv
+```
+
+The expected directory and filename are defined in `M00_Config.py` (`DATA_DIR` and `IGRA_CSV_FILE`). On Kaggle the dataset is read from `/kaggle/input/` instead; see `M00_Config.py` for the environment switch.
+
 ## Usage
 
 The pipeline uses module-relative imports, so run it from inside `vht_stgnn/`:
