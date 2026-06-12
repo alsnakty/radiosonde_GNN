@@ -1,0 +1,24 @@
+# Core
+torch>=2.0.0
+numpy>=1.21.0
+pandas>=1.3.0
+
+# Graph Neural Networks
+torch-geometric>=2.4.0
+
+# Machine Learning
+scikit-learn>=1.0.0
+scipy>=1.7.0
+
+# Transformer baseline (SAITS, M08) - optional
+pypots>=1.5
+
+# Data preprocessing (data_collection/) - derived thermodynamic variables
+metpy>=1.7.1
+
+# Visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Utilities
+tqdm>=4.62.0

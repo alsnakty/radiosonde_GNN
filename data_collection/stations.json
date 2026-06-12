@@ -1,0 +1,66 @@
+{
+  "stations": [
+    {
+      "station_id": "17030",
+      "name": "Samsun",
+      "lat": 41.28,
+      "lon": 36.30,
+      "elevation": 4
+    },
+    {
+      "station_id": "17064",
+      "name": "Istanbul",
+      "lat": 40.91,
+      "lon": 29.16,
+      "elevation": 19
+    },
+    {
+      "station_id": "17095",
+      "name": "Erzurum",
+      "lat": 39.91,
+      "lon": 41.25,
+      "elevation": 1861
+    },
+    {
+      "station_id": "17130",
+      "name": "Ankara",
+      "lat": 39.95,
+      "lon": 32.88,
+      "elevation": 891
+    },
+    {
+      "station_id": "17220",
+      "name": "Izmir",
+      "lat": 38.39,
+      "lon": 27.08,
+      "elevation": 31
+    },
+    {
+      "station_id": "17240",
+      "name": "Isparta",
+      "lat": 37.78,
+      "lon": 30.57,
+      "elevation": 998
+    },
+    {
+      "station_id": "17281",
+      "name": "Diyarbakir",
+      "lat": 37.54,
+      "lon": 40.12,
+      "elevation": 675
+    },
+    {
+      "station_id": "17351",
+      "name": "Adana",
+      "lat": 37.00,
+      "lon": 35.34,
+      "elevation": 28
+    }
+  ],
+  "metadata": {
+    "data_period": "2006-11-30 to 2021-05-18",
+    "total_stations": 8,
+    "country": "Türkiye",
+    "source": "NOAA IGRA"
+  }
+}
